@@ -66,8 +66,7 @@
     "dev": "webpack-dev-server --content-base src --inline --hot",
     "test": "mocha --require testrunner src/app --require ignore-styles --recursive",
     "start": "node distServer/server.js",
-    "linter": "eslint src/app --quiet",
-    "precommit": "npm run linter"
+    "linter": "eslint src/app --quiet"
   },
   "author": "",
   "license": "ISC"

@@ -1,28 +1,13 @@
 import React from "react";
 import "./Contact.scss";
 
-export default class Contact extends React.Component{
+export default class Contact extends React.Component {
 
-render(){
+    render() {
+        return (
+            <div />
 
-  return(
-   <div></div>
-      
-
-
-
-);
-
-}
-
-
-
-
-
-
-
-
-
-
+        );
+    }
 
 }

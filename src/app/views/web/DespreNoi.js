@@ -1,28 +1,13 @@
 import React from "react";
 import "./DespreNoi.scss";
 
-export default class DespreNoi extends React.Component{
+export default class DespreNoi extends React.Component {
 
-render(){
+    render() {
+        return (
+            <div />
 
-  return(
-   <div></div>
-      
-
-
-
-);
-
-}
-
-
-
-
-
-
-
-
-
-
+        );
+    }
 
 }

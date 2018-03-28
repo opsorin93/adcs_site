@@ -9,6 +9,7 @@ export default class LandingPage extends React.Component {
         return (
             <div >
                 <Menu />
+                <div></div>   
                 <Footer />
             </div>
         );

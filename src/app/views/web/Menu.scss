@@ -1,0 +1,81 @@
+.meniu{
+background-color: yellowgreen;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position:fixed;
+top: 0;
+width: 100%;
+display: flex;
+
+}
+.bar{
+background-color: transparent;
+display:inline-block;
+text-align: center;
+border: none;
+outline: none;
+width:9%;
+   a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    }
+    a:hover {
+      background-color: rgba(0, 128, 49, 0.548);
+      text-decoration: none;}
+    a:active {
+      background-color: rgba(0, 128, 49, 0.548);}
+      text-decoration: none;   
+    }
+
+
+
+.search{
+  .search-btn{
+   background-image: url(assets/search.svg);
+   height:100%;
+  } 
+}
+.Ro{
+ background-image: url(assets/ro.svg);
+ height:100%;
+ border-radius: 50%;
+}
+
+.Eng{
+background-image: url(assets/gb.svg);
+height:100%;
+width: 100%;
+border-radius: 50%;
+
+}
+.LR{
+ background-color: transparent;
+ text-align: center;
+ border: none;
+ width: 100%;
+ outline: none;
+ 
+ width: 9%;
+  a{color: white;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size : 20px;
+   }
+   a:hover {
+    background-color: rgba(0, 133, 44, 0.486); 
+    text-decoration: none;
+   }
+   a:active {
+    background-color: rgba(0, 133, 44, 0.486); 
+    text-decoration: none;
+   } 
+
+  
+}
+
+

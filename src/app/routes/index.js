@@ -1,4 +1,4 @@
-import { Contact, DespreNoi, LandingPage, Proiecte, Servicii, Sustine } from "../../app/views/web";
+import { Contact, DespreNoi, LandingPage, Proiecte, Servicii, Sustine, Login, Register } from "../../app/views/web";
 
 const routes = [
     {
@@ -27,8 +27,18 @@ const routes = [
         exact: true,
     },
     {
-        path: "/support",
+        path: "/sustine",
         component: Sustine,
+        exact: true,
+    },
+    {
+        path: "/login",
+        component: Login,
+        exact: true,
+    },
+    {
+        path: "/register",
+        component: Register,
         exact: true,
     },
 ];

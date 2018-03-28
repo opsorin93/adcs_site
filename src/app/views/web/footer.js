@@ -1,44 +1,37 @@
 import React from "react";
 import "./footer.scss";
 
-export default class Footer extends React.Component{
+export default class Footer extends React.Component {
 
-    render(){
-   
-        const newsletter = "Newsletter";
-        const conctat = "Contact";
-        const socialNetwork ="Retele Sociale";
-        const support = "Support";
-      
-      return (
-       <div className = "Footer">  
-          <div className="letter">{newsletter} </div>
-          <div className="contact"> {conctat}  
-          <p> ADCS
-           <p> Adress :B-dul Eroilor Nr. 4, 
-              400129 Cluj-Napoca, Romania
-             <p> Tel: +40 720 479 515</p><p> office@adcs.ro</p>
-           </p>  
-          </p>  
-              
+    render() {
+        const address = "Address";
 
-         </div>
-          <div className="retele"> {socialNetwork}  </div>
-          <div className="support"> {support}  </div>
-          </div>  
-      );
+        return (
+            <div className="footer">
+                <div className="contact info">Contact</div>
+                <div className="info"c>ADCS</div>
+                <div className="info">{`${ address }: B-dul Eroilor Nr. 4,
+              400129 Cluj-Napoca, Romania`}</div>
+                <div className="info"> Tel: +40 720 479 515</div>
+                <div className="info"> office@adcs.ro</div>
+                <button className="media-btn">
+                    <a href="https://www.facebook.com/AssociationForDialogueCultureAndSport/" >
+                        <img src="assets/facebook.svg" alt="" className="media-img" />
+                    </a>
+                </button>
+                <button className="media-btn">
+                    <a href="https://www.linkedin.com/">
+                        <img src="assets/linkedin.svg" alt="" className="media-img" />
+                    </a>
+                </button>
+                <button className="media-btn">
+                    <a href="https://www.instagram.com/">
+                        <img src="assets/instagram.svg" alt="" className="media-img" />
+                    </a>
+                </button>
+                <div className="copyright">©2018 Association for Dialogue, Culture and Sport</div>
+            </div>
+        );
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

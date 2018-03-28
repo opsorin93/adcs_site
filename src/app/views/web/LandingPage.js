@@ -7,10 +7,12 @@ export default class LandingPage extends React.Component {
 
     render() {
         return (
-            <div >
-                <Menu />
-                <div></div>   
-                <Footer />
+            <div className="container-fluid">
+                <div className="row">
+                    <Menu />
+                    <div />
+                    <Footer />
+                </div>
             </div>
         );
     }

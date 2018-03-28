@@ -1,8 +1,12 @@
-.Footer{
+.footer{
     widows: 100%;
     background-color: yellowgreen; 
-    padding: 60px 0px;
-    
+    padding: 15px 0px;
+
+    p{
+        color: white;
+        padding-left: 10px;
+    }
 
 }
 .letter{
@@ -20,4 +24,31 @@
 }
 .support{
     font-size: 20px;
+}
+
+.media-btn {
+    background-color: transparent;
+    margin: none;
+    border: none;
+    margin-top: 10px;
+
+    .media-img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.copyright {
+    font-size: 17px;
+    font-style: italic;
+    color: white;
+    width: 100%;
+    // padding-left: 10px;
+    text-align: center;
+
+}
+
+.info {
+    color:white;
+    padding-left: 10px;
 }

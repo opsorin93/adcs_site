@@ -2,19 +2,14 @@
   outline: none;
 }
 
-.header-div {
-  width: 100%;
-  height: 35%;
-  text-align: center;
-}
 
 .logo {
-  width: 50%;
+  width: 20%;
   height: 80%;
 }
 
 .meniu{
-background-color: yellowgreen;
+background-color: lightslategrey;
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -47,7 +42,9 @@ width:9%;
       text-decoration: none;   
     }
 
-
+.meniu2{
+display:block;
+}
 
 .search{
   display: flex;
@@ -91,7 +88,7 @@ width:9%;
  width: 100%;
  outline: none;
  
- width: 9%;
+ width:0%;
   a{color: white;
     text-align: center;
     display: block;

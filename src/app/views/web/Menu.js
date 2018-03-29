@@ -11,17 +11,18 @@ class Menu extends React.Component {
         const aboutUs = this.props.language === "EN" ? "About us" : "Despre noi";
         const project = this.props.language === "EN" ? "Projects" : "Proiecte";
         const services = this.props.language === "EN" ? "Services" : "Servici";
-        const support = "Sustine";
-        const contact = "Contact";
-        const log = "Login";
-        const register = "Register";
-        const home = "Acasa";
-        const searchPlaceholder = "Cauta...";
+        const support = this.props.langauge === "EN" ? "Support" : "Sustine";
+        const contact = this.props.langauge === "EN" ? "Contact" : "Contact";
+        const log = this.props.langauge === "EN" ? "Login" :"Intra in cont";
+        const register = this.props.langauge === "EN" ? "Register" :"Inregistrare";
+        const home = this.props.langauge === "EN" ? "Home" : "Acasa"
+        const searchPlaceholder = this.props.langauge === "EN" ? " Search..." : "Cauta...";
 
         return (
-            <div className="header-div">
-                <img src="assets/logo.png" className="logo" alt="" />
+            
+                
                 <div className="meniu">
+                    <img src="assets/logo.png" className="logo" alt="" />
                     <button className="bar">
                         <Link to="/">{home}
                         </Link>
@@ -46,27 +47,32 @@ class Menu extends React.Component {
                         <Link to="/contact">{contact}
                         </Link>
                     </button>
+                    <div className="meniu2">
                     <div className="search">
                         <input type="text" placeholder={ searchPlaceholder } />
                         <button className="search-btn">
                             <img src="assets/search.svg" alt="" className="search-img" />
                         </button>
                     </div>
+                    
                     <button className="LR">
                         <Link to="/login">{log}
                         </Link>
                     </button>
                     <button className="LR">
                         <Link to="/register">{register}
-                        </Link>
+                        </Link>   
                     </button>
+                    
+                    <div className="flags">
                     <button className="flag-btn" onClick={ () => this.props.setLanguage( "RO" ) }>
                         <img className="flag-img" alt="" src="assets/ro.svg" />
                     </button>
                     <button className="flag-btn" onClick={ () => this.props.setLanguage( "EN" ) }>
                         <img className="flag-img" alt="" src="assets/gb.svg" />
                     </button>
-                </div>
+                    </div>
+               </div>
             </div>
         );
     }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./log.scss";
+import "./login.scss";
 
 export default class Login extends React.Component {
 
@@ -12,7 +12,8 @@ export default class Login extends React.Component {
             <label>Password</label>
             <input type="text" placeholder="Minimun 6 caracters"></input>
             <button name="subject" type="submit" value="Login">Login</button>
-            <button name="subject" type="submit" value="Cancel">Cancel</button> 
+            <button name="subject" type="submit" value="Cancel">Cancel</button>
+            
           </div>
 
 

@@ -1,10 +1,14 @@
 p{ font-size: 20px;
 }
 
-.en.inactive {
+.content {
+    padding-top: 10%;
+}
+
+.content.inactive {
     display: none;
 }
 
-.ro.inactive {
+.content.inactive {
     display: none;
 }

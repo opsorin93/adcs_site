@@ -32,6 +32,7 @@
     margin: none;
     border: none;
     margin-top: 10px;
+    padding: 0px 25px;
 
     .media-img {
         width: 30px;
@@ -39,17 +40,19 @@
     }
 }
 
+.social-media {
+    text-align: center;
+}
+
 .copyright {
     font-size: 17px;
     font-style: italic;
     color: white;
     width: 100%;
-    // padding-left: 10px;
-    text-align: center;
-
+    padding-left: 10%;
 }
 
 .info {
     color:white;
-    padding-left: 10px;
+    padding-left: 10%;
 }

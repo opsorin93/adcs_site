@@ -27,7 +27,7 @@ export default class Footer extends React.Component {
                         </a>
                     </button>
                     <button className="media-btn">
-                        <a href="https://www.instagram.com/">
+                        <a href="https://www.instagram.com/adcs_ro/?hl=ro">
                             <img src="assets/instagram.svg" alt="" className="media-img" />
                         </a>
                     </button>

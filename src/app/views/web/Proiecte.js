@@ -138,7 +138,7 @@ class Proiecte extends React.Component {
 
                          <p>Detalii:</p>
                              <p>Web: <a href=" https://rainbowofchange.wordpress.com/">rainbowofchange.wordpress.com</a></p>
-                             <p>Facebook:< a href=" https://www.facebook.com/Rainbow-of-Change-270527999716789/">facebook.com/Rainbow-of-Change</a></p>
+                             <p>Facebook: < a href=" https://www.facebook.com/Rainbow-of-Change-270527999716789/">facebook.com/Rainbow-of-Change</a></p>
                     </div>   
                 <Footer />
                 </div>      

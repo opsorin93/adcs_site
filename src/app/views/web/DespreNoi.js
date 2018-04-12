@@ -39,7 +39,7 @@ class DespreNoi extends React.Component {
                        ADCS dorește să încurajeze oamenii să învețe unii de la alții și să învețe pe alții, și îi inspira să devină mai activi în viața lor și a comunități lor.
                        Echipa ADCS este formată din tineri motivați care doresc să aducă schimbări în societate. Asociația noastră are experiență în a fi inițiator, coordonator și partener, în mai multe programe Europene. Astfel coordonează și/sau participă la peste 10 proiecte europene în fiecare an.
                     </p>
-                    <p> În ADCS, tinerii pot:
+                    <p> În ADCS, tinerii po:
                         <ul>
                             <li> Să afle mai multe despre ei înșiși și să descopere marele dar al diversității umane;</li>
                             <li> Dezvoltarea competențelor personale și profesionale prin utilizarea activităților de educație non-formală;</li>

@@ -13,7 +13,7 @@ export default class Login extends React.Component {
             <input type="text" placeholder="Minimun 6 caracters"></input>
             <button name="subject" type="submit" value="Login">Login</button>
             <button name="subject" type="submit" value="Cancel">Cancel</button>
-            
+             
           </div>
 
 

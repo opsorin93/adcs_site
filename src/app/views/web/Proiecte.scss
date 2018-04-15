@@ -1,0 +1,80 @@
+.h {
+    font-size: 20px;
+}    
+
+
+
+.content {
+    padding-top: 10%;
+    background-color: peachpuff;
+    overflow: auto;
+    font-family: "Times New Roman", times , serif;
+    height: 80vh;
+    font-size: 40px;
+}
+
+.project1{       
+    display: inline-block;
+    float:left;
+    max-width: 50%;
+    
+    h1{
+        font-size:50px;
+        text-decoration: underline dotted blue;
+    }
+    p{ text-indent: 30px;
+    }
+    h2{
+        font-size: 30px;}
+    ul{
+        font-size: 20px;
+        font-style: italic;
+    }
+}
+
+.project2{
+    display: inline-block;
+    max-width: 50%;
+        h1{
+            font-size:50px;
+            text-decoration: underline dotted blue;
+        }
+        p{ text-indent: 30px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        ul{
+            font-size: 20px;
+            font-style: italic;
+        }
+}
+
+.project3{
+    display: inline-block;
+    max-width: 50%;
+        h1{
+            font-size:50px;
+            text-decoration: underline dotted blue;
+        }
+        p{ text-indent: 30px;
+            font-size: 20px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        li{
+            font-size: 20px;
+            font-style: italic;
+            text-indent: 20px;
+        }
+        ul{
+            font-size: 20px;
+            font-style: italic;
+        }
+        p1{
+            padding-top: 20px;
+            font-size: 20px;
+            padding-left: 25px;
+        }
+}

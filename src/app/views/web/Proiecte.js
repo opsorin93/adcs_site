@@ -15,7 +15,7 @@ class Proiecte extends React.Component {
                 <Menu/>
                 <div className={ `content ${ enState }` }>
 
-         <div>Projects list:</div>
+         <div className="list">Projects list:</div>
           
            <div className="project1">
                     <h1>1.Ritual Beyond Roots</h1>
@@ -27,7 +27,7 @@ class Proiecte extends React.Component {
                        <p>Place: Cluj-Napoca, Romania</p>
                     </ul>
 
-                    <p> Ritual Beyond Roots is a creative approach to intercultural dialogue and community building as a 10-day experiential training applied in <a href ="https://www.birdshapedtheatre.com/labyrinth" >
+                    <p> Ritual Beyond Roots is a creative approach to intercultural dialogue and community building as a 10-day experiential training applied in <a className="linkclass" href ="https://www.birdshapedtheatre.com/labyrinth" >
                     Sensory Labyrinth Theatre </a>(SLT).
                      SLT is a form of live immersive performance in which the audience participates by becoming travelers on a sensorial journey devised by the performers.</p>
                     
@@ -35,8 +35,8 @@ class Proiecte extends React.Component {
                        After this exploration of rituals from different moments in life, we collectively created, constructed and performed in an SLT piece for the local community.</p>
                      
                     <h2>Detalis:</h2>
-                        <p>Web: <a href = "https://www.birdshapedtheatre.com/ritual"> www.birdshapedtheatre.com/ritual</a></p>
-                        <p>Youtube: <a href = "https://www.youtube.com/channel/UCJap1FjUic1v9fXEqMQWnhQ">Bird-Shaped Theatre</a></p>
+                        <p>Web: <a className="linkclass" href = "https://www.birdshapedtheatre.com/ritual"> www.birdshapedtheatre.com/ritual</a></p>
+                        <p>Youtube: <a className="linkclass" href = "https://www.youtube.com/channel/UCJap1FjUic1v9fXEqMQWnhQ"></a> </p>
               </div>
 
                 <div className="project2">
@@ -58,8 +58,8 @@ class Proiecte extends React.Component {
                           The group had 5 members, one per organization and a fifth who had the role of acting as a bridge between the two working groups.</p>
                         
                         <h2>Details:</h2>
-                         <p>Web: < a href="http://www.keks.se/internationellt-arbete/rise-2/">keks.se/internationellt-arbete/rise-2/</a></p>
-                         <p>Facebook: <a href=" : https://www.facebook.com/RISEstrateg">Facebook.com/RISEstrateg/</a></p>
+                         <p>Web: < a className="linkclass" href="http://www.keks.se/internationellt-arbete/rise-2/">keks.se/internationellt-arbete/rise-2/</a></p>
+                         <p>Facebook: <a className="linkclass" href=" : https://www.facebook.com/RISEstrateg">Facebook.com/RISEstrateg/</a></p>
                   </div>
 
                 <div className="project3">
@@ -84,15 +84,15 @@ class Proiecte extends React.Component {
                            </ul>  
                            
                            <h2>Details:</h2>
-                             <p>Web: <a href=" https://rainbowofchange.wordpress.com/">rainbowofchange.wordpress.com</a></p>
-                             <p>Facebook: < a href=" https://www.facebook.com/Rainbow-of-Change-270527999716789/">facebook.com/Rainbow-of-Change</a></p>
+                             <p>Web: <a className="linkclass" href=" https://rainbowofchange.wordpress.com/">rainbowofchange.wordpress.com</a></p>
+                             <p>Facebook: < a className="linkclass"  href=" https://www.facebook.com/Rainbow-of-Change-270527999716789/">facebook.com/Rainbow-of-Change</a></p>
                     </div> 
                  </div>   
 
                 
                 <div className={ `content ${ roState }` }> 
                 
-                 <div>Lista de proiecte:</div>
+                 <div className="list">Lista de proiecte:</div>
 
                  <div className="project1">
                    <h1>1.Ritual Beyond Roots</h1>
@@ -104,7 +104,7 @@ class Proiecte extends React.Component {
                       <p>Locația: Cluj-Napoca, Romania</p>
                      </ul>
 
-                    <p> Ritual Beyond Roots a fost o abordare creativă asupra dialogului intercultural și a clădirii comunități în cadrul unui traning de 10 zile aplicat prin <a href ="https://www.birdshapedtheatre.com/labyrinth" >
+                    <p> Ritual Beyond Roots a fost o abordare creativă asupra dialogului intercultural și a clădirii comunități în cadrul unui traning de 10 zile aplicat prin <a className="linkclass" href ="https://www.birdshapedtheatre.com/labyrinth" >
                     Sensory Labyrinth Theatre </a>(SLT).
                         SLT este o formă de performanță imersă în direct la care audiența participă prin a deveni călatori în o călatorie 
                         senzorială concepută de interpreți.</p>
@@ -112,8 +112,8 @@ class Proiecte extends React.Component {
                         După această explorare de ritualuri din diferite momente ale vieți, în colectiv am creat, construit și prezentat o piesă SLT pentru comuniate</p>  
 
                        <h2>Detalii:</h2>
-                        <p>Web: <a href = "https://www.birdshapedtheatre.com/ritual"> www.birdshapedtheatre.com/ritual</a></p>
-                        <p>Youtube: <a href = "https://www.youtube.com/channel/UCJap1FjUic1v9fXEqMQWnhQ">Bird-Shaped Theatre</a></p>
+                        <p>Web: <a className="linkclass" href = "https://www.birdshapedtheatre.com/ritual"> www.birdshapedtheatre.com/ritual</a></p>
+                        <p>Youtube: <a  className="linkclass" href = "https://www.youtube.com/channel/UCJap1FjUic1v9fXEqMQWnhQ">Bird-Shaped Theatre</a></p>
                    </div>
 
               <div className="project2">
@@ -135,8 +135,8 @@ class Proiecte extends React.Component {
                           Grupul era format dn 5 membri, unul pentru fiecare organizație și al cincelea carea avea rolul de legătură dintre cele două grupuri participante. </p>
 
                       <h2>Detalii:</h2>
-                         <p>Web: < a href="http://www.keks.se/internationellt-arbete/rise-2/">keks.se/internationellt-arbete/rise-2/</a></p>
-                         <p>Facebook: <a href=" : https://www.facebook.com/RISEstrateg/">Facebook.com/RISEstrateg</a></p>    
+                         <p>Web: < a className="linkclass" href="http://www.keks.se/internationellt-arbete/rise-2/">keks.se/internationellt-arbete/rise-2/</a></p>
+                         <p>Facebook: <a className="linkclass" href=" : https://www.facebook.com/RISEstrateg/">Facebook.com/RISEstrateg</a></p>    
                 </div>              
 
                 
@@ -163,8 +163,8 @@ class Proiecte extends React.Component {
                           </ul>
 
                          <h2>Detalii:</h2>
-                             <p>Web: <a href=" https://rainbowofchange.wordpress.com/">rainbowofchange.wordpress.com</a></p>
-                             <p>Facebook: < a href=" https://www.facebook.com/Rainbow-of-Change-270527999716789/">facebook.com/Rainbow-of-Change</a></p>
+                             <p>Web: <a className="linkclass" href=" https://rainbowofchange.wordpress.com/">rainbowofchange.wordpress.com</a></p>
+                             <p>Facebook: < a className="linkclass" href=" https://www.facebook.com/Rainbow-of-Change-270527999716789/">facebook.com/Rainbow-of-Change</a></p>
                       </div>       
                     </div>   
                 <Footer />

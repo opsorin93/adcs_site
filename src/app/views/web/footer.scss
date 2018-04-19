@@ -56,3 +56,26 @@
     color:white;
     padding-left: 10%;
 }
+@media screen AND (max-width: 1280px) { 
+    .footer{
+        height: 20px;
+    }
+    .info{
+        font-size: 15px;
+        }
+
+    .copyright{
+        font-size: 17px;
+    }
+    .media-btn{
+        .media-img{
+        width : 20px;
+        height: 20px;
+        text-align: center;
+        }
+    }
+    .footer{
+        height: 170px;
+    }
+
+}

@@ -148,7 +148,35 @@ display:block;
      font-size: 15px;
    }
  } 
+ .home-btn{
+   width: 80px;
+   height: 20px;
+ }
+ .right-side{
+   width: 15px;
  
+ .search{
+   width: 10px;
+   height: 10px;
+ }
+}
+.flags {
+  margin-top: 5%;
+  display: flex;
+  float: right;
+
+  .flag-btn {
+      background-color: transparent;
+      margin: 0px;
+      border: 0px;
+      display: flex;
+
+      .flag-img {
+        height: 10px;
+        width: 15px;
+      }
+  }
+}
 }
 
 

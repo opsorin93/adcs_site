@@ -87,6 +87,9 @@ class Proiecte extends React.Component {
                              <p>Web: <a className="linkclass" href=" https://rainbowofchange.wordpress.com/">rainbowofchange.wordpress.com</a></p>
                              <p>Facebook: < a className="linkclass"  href=" https://www.facebook.com/Rainbow-of-Change-270527999716789/">facebook.com/Rainbow-of-Change</a></p>
                     </div> 
+                        <div className="newproject">
+                          <h1> Stay tuned for more </h1>
+                        </div>  
                  </div>   
 
                 
@@ -165,10 +168,17 @@ class Proiecte extends React.Component {
                          <h2>Detalii:</h2>
                              <p>Web: <a className="linkclass" href=" https://rainbowofchange.wordpress.com/">rainbowofchange.wordpress.com</a></p>
                              <p>Facebook: < a className="linkclass" href=" https://www.facebook.com/Rainbow-of-Change-270527999716789/">facebook.com/Rainbow-of-Change</a></p>
-                      </div>       
+                      </div>
+
+                      <div className="newproject">
+                        <h1> Lista va continua </h1>
+                      </div>           
+                  
                     </div>   
                 <Footer />
                 </div>      
+
+               
         );
     }
 }

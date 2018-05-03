@@ -117,6 +117,15 @@
   color: currentColor;
   text-decoration: underline;
 }
+
+.newproject{
+    display: inline-block;
+    max-width: 50%;
+    text-align: center;
+   
+}
+
+
 @media screen AND (max-width: 1280px) { 
     .project1{
         font-size: 15px;

@@ -9,9 +9,8 @@
 
 .content {
     padding-top: 10%;
-    background-color: peachpuff;
     overflow: auto;
-    font-family: "Times New Roman", times , serif;
+    font-family: cursive;
     height: 80vh;
     font-size: 40px;
 }
@@ -25,13 +24,12 @@
     
     h1{
         font-size:50px;
-        color: white;
-        text-shadow: 2px 2px #FF0000;
+        color: lemonchiffon;
+        text-shadow: 2px 2px #191970;
         width: 500px;
         padding: 10px;
-        border: 5px solid gray;
         margin: 0;
-        background-color: grey;
+        padding-top: 30px;
     }
     p{ text-indent: 30px;
         .a{
@@ -39,7 +37,7 @@
             text-decoration: underline;
         }
     }
-    h2{
+    h2{ font-family: cursive;
         font-size: 30px;}
     ul{
         font-size: 20px;
@@ -52,14 +50,13 @@
     max-width: 50%;
         h1{
             font-size:50px;
-            color: white;
-            width: 900px;
-             padding: 10px;
-             border: 5px solid gray;
+            color: lemonchiffon;
+            text-shadow: 2px 2px #191970;
+            width: 800px;
+            padding: 10px;
             margin: 0;
-            background-color: grey;
-           
-            text-shadow: 2px 2px #FF0000;
+            padding-top: 30px;
+            padding-left: 10px;
         }
         p{ text-indent: 30px;
             .a{
@@ -69,6 +66,7 @@
         }
         h2{
             font-size: 30px;
+            font-family: cursive;
         }
         ul{
             font-size: 20px;
@@ -81,13 +79,13 @@
     max-width: 50%;
         h1{
             font-size:50px;
-            color: white;
-            width: 480px;
+            color: lemonchiffon;
+            text-shadow: 2px 2px #191970;
+            width: 500px;
             padding: 10px;
-            border: 5px solid gray;
             margin: 0;
-            text-shadow: 2px 2px #FF0000;
-            background-color: grey;
+            padding-top: 30px;
+                        
         }
         p{ text-indent: 30px;
             font-size: 20px;
@@ -95,6 +93,7 @@
         }
         h2{
             font-size: 30px;
+            font-family: cursive;
         }
         li{
             font-size: 20px;
@@ -105,12 +104,11 @@
             font-size: 20px;
             font-style: italic;
         }
-        p1{
+        p1 {
             padding-top: 20px;
-            font-size: 20px;
+            font-size: 25px;
             padding-left: 25px;
-            
-        }
+            }
 }
 
 .linkclass{
@@ -121,12 +119,18 @@
 .newproject{
     display: inline-block;
     max-width: 50%;
-    text-align: center;
+    h1{
+        
+    }
+    
    
 }
 
 
 @media screen AND (max-width: 1280px) { 
+    .list{
+        font-size: 25px;
+    }
     .project1{
         font-size: 15px;
         h1{

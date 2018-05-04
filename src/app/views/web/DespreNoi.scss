@@ -5,17 +5,16 @@ p{ font-size: 20px;
     padding-top: 10%;
     background: linear-gradient(to bottom, #0066cc 0%, #ccffff 100%);
     font-weight: bold;
-    font-family: "Times New Roman", times , serif;
     height: 80vh;
+    color: black;
+    font-family: cursive;
 }
 
 .content.inactive {
     display: none;
 }
 
-.content.inactive {
-    display: none;
-}
+
 
 .first{
   text-indent: 30px;
@@ -35,7 +34,7 @@ p{ font-size: 20px;
  .last{
     text-indent:30px;
     h{
-       font-size: 30px;
+       font-size: 25px;
     }
 
      p{

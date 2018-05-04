@@ -2,6 +2,8 @@
     widows: 100%;
     background-color:lightblue; 
     padding: 15px 0px;
+    color: darkblue;
+    font-family: cursive;
 
     p{
         color: white;
@@ -16,6 +18,7 @@
 }
 .contact{
     font-size: 20px;
+    font-family: cursive;
     .p{
         font-size: auto;
     }
@@ -47,13 +50,13 @@
 .copyright {
     font-size: 17px;
     font-style: italic;
-    color: white;
     width: 100%;
     padding-left: 10%;
+    color:darkblue;
 }
 
 .info {
-    color:white;
+    color:darkblue;
     padding-left: 10%;
 }
 @media screen AND (max-width: 1280px) { 
@@ -61,11 +64,11 @@
         height: 20px;
     }
     .info{
-        font-size: 15px;
+        font-size: 10px;
         }
 
     .copyright{
-        font-size: 17px;
+        font-size: 10px;
     }
     .media-btn{
         .media-img{
@@ -75,7 +78,7 @@
         }
     }
     .footer{
-        height: 170px;
+        height: 140px;
     }
 
 }

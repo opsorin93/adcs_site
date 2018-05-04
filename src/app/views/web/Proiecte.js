@@ -36,7 +36,7 @@ class Proiecte extends React.Component {
                      
                     <h2>Detalis:</h2>
                         <p>Web: <a className="linkclass" href = "https://www.birdshapedtheatre.com/ritual"> www.birdshapedtheatre.com/ritual</a></p>
-                        <p>Youtube: <a className="linkclass" href = "https://www.youtube.com/channel/UCJap1FjUic1v9fXEqMQWnhQ"></a> </p>
+                        <p>Youtube: <a className="linkclass" href = "https://www.youtube.com/channel/UCJap1FjUic1v9fXEqMQWnhQ">Bird-Shaped Theatre</a> </p>
               </div>
 
                 <div className="project2">
@@ -74,7 +74,8 @@ class Proiecte extends React.Component {
                         <p>“Rainbow of Change” was a project developed by us, 8 volunteers, based on our own abilities and born out from the desire of contributing to the needs of the community in Rosario, Argentina. So, there we were, a Rainbow of people that hope to bring changes in ourselves and in the new community we had lived in: Rosario, Argentina.
                             We were brought together by the passion for non-formal education and the enthusiasm of working with youth.
                             The project was an European Voluntary Service (EVS), a programme of the European Commission through the “Youth in Action” Programme.</p>
-                         <p>  What we aimed for:</p> <li>To stimulate the development of creative thinking and using it as generator of solutions for  the problems of youth from the communities of Rosario.</li>
+                         <p1>  What we aimed for:</p1>
+                              <li>To stimulate the development of creative thinking and using it as generator of solutions for  the problems of youth from the communities of Rosario.</li>
                           <p1>Objectives:</p1>
                           <ul>
                              <li>To enhance conflict transformation in local communities;</li> 
@@ -88,7 +89,7 @@ class Proiecte extends React.Component {
                              <p>Facebook: < a className="linkclass"  href=" https://www.facebook.com/Rainbow-of-Change-270527999716789/">facebook.com/Rainbow-of-Change</a></p>
                     </div> 
                         <div className="newproject">
-                          <h1> Stay tuned for more </h1>
+                          <h1> Stay tuned for more ! </h1>
                         </div>  
                  </div>   
 
@@ -155,7 +156,7 @@ class Proiecte extends React.Component {
                         <p>“Rainbow of Change” a fost un proiect dezvoltat de noi, 8 volunatari, bazat pe propriile abilități și născut din dorința de a contribui la nevoile comunității din Rosario, Argentina.
                             Un curcubeu de oameni care speră să aducă o schimbare în ei înșuși și în noua comunitate in care vor locui: Rosario, Argentina.
                             Uniți împreună din pasiune pentru educația non-formală și entuziasmul de a lucra cu tineri.</p>
-                        <p>Scopul nostru a fost:</p>   
+                        <p1>Scopul nostru a fost:</p1>   
                           <li> Stimularea dezvoltării gândirii creative și folosirea acesteia pentru a genera soluți problemelor cu care tineri se confruntă in comunitatea din Rosario.</li>
                         <p1>Obiective:</p1>
                           <ul>
@@ -171,7 +172,7 @@ class Proiecte extends React.Component {
                       </div>
 
                       <div className="newproject">
-                        <h1> Lista va continua </h1>
+                        <h1> Lista va continua ! </h1>
                       </div>           
                   
                     </div>   

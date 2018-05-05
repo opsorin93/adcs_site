@@ -13,7 +13,8 @@
   width: 100%;
   display: flex;
   height: 10%;
-  position: fixed;
+  min-width:1280px;
+  min-height:120px;
 }
 
 .bar{
@@ -45,8 +46,13 @@ font-family: cursive;
     a:active{
       color: red;
       text-decoration: none; 
-    }  
-  }
+    }
+      a:focus{
+        color:white;
+        text-decoration: underline;
+      }
+  }  
+  
 
 .meniu2{
 display:block;
@@ -59,7 +65,7 @@ display:block;
   border: solid 1px gray;
   margin-top: 0.5%;
   border-radius:30px;
-
+  width:90%;
   .search-btn{
    height:100%;
    border:none;
@@ -70,22 +76,25 @@ display:block;
   input {
     border:none;
     border-radius:30px;
+    width: 85%;
   } 
   
 }
 
 .home-btn {
-  height: 50px;
-  width: 150px;
+  height: 70px;
+  width: 200px;
   content: url(assets/logo2.png);
 }
 
 .right-side {
   display: block;
-  width: 28%;
+  width: 46%;
   padding-top: 1%;
   border-radius: 30px;
   margin-top: 20px;
+  float:right;
+  padding-top:20px;
 }
 
 .settings-bar {
@@ -105,6 +114,7 @@ display:block;
   margin-top: 5%;
   display: flex;
   float: right;
+  padding-right:10%; 
 
   .flag-btn {
       background-color: transparent;
@@ -161,22 +171,28 @@ display:block;
      font-size: 15px;
    }
  } 
- .home-btn{
-   width: 80px;
-   height: 20px;
- }
- .right-side{
-   width: 15px;
  
+ 
+ .right-side{
+  
  .search{
-   width: 10px;
-   height: 10px;
+   min-width: 10px;
+   min-height: 10px;
+    
  }
+}
+
+.home-btn{
+  height: 50px;
+  width: 130px;
+  content: url(assets/logo2.png);
 }
 .flags {
   margin-top: 5%;
   display: flex;
   float: right;
+
+
 
   .flag-btn {
       background-color: transparent;
@@ -185,11 +201,12 @@ display:block;
       display: flex;
 
       .flag-img {
-        height: 10px;
-        width: 15px;
+        min-height: 10px;
+        min-width: 15px;
       }
   }
-}
+  
+ }
 }
 
 

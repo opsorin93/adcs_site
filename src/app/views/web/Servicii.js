@@ -14,8 +14,9 @@ render(){
   const roState = this.props.language === "RO" ? "" : "inactive";
 
                 return(
-                            <div>
-                            <Menu />
+                         <div className="container-fluid">
+                            <div className="row">
+                              <Menu />
                             <div className={ `content ${ enState }` }>
                             
                             <div className="organizations">
@@ -86,7 +87,7 @@ render(){
                               </div>   
                             <Footer />
                             </div> 
-
+                          </div>
 
 
                       );  

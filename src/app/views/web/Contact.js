@@ -9,7 +9,7 @@ export default class Contact extends React.Component {
 
     render() {
         return (
-            <div >
+            <div className="container-fluid" >
                 <Menu />
                 <div></div>   
                 <Footer />

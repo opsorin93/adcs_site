@@ -22,7 +22,7 @@ class LandingPage extends React.Component {
                     
                     
                         <div className="title" > Inspiring <b>YOU</b>th to get involved ! </div>
-                        <div className="video"> <iframe width="860" height="515" src="https://www.youtube.com/embed/XSgCIU2M_Rw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <div className="video"> <iframe className="frame" src="https://www.youtube.com/embed/XSgCIU2M_Rw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                          </div>
                     
                     </div>
@@ -32,7 +32,7 @@ class LandingPage extends React.Component {
                     <div className={ `content ${ roState }` }>
 
                          <div className="title" >Inspiră <b>TINE</b>rii să se implice ! </div>
-                         <div className="video"> <iframe width="860" height="515" src="https://www.youtube.com/embed/XSgCIU2M_Rw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                         <div className="video"> <iframe className="frame"  src="https://www.youtube.com/embed/XSgCIU2M_Rw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                           </div>
                     
                     </div>

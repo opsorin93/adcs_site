@@ -11,7 +11,9 @@ class Proiecte extends React.Component {
         const enState = this.props.language === "EN" ? "" : "inactive";
         const roState = this.props.language === "RO" ? "" : "inactive";
         return (
-            <div>
+
+            <div className="container-fluid">
+              <div className="row">
                 <Menu/>
                 <div className={ `content ${ enState }` }>
 
@@ -177,7 +179,9 @@ class Proiecte extends React.Component {
                   
                     </div>   
                 <Footer />
-                </div>      
+              </div>
+             </div>   
+                     
 
                
         );

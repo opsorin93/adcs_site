@@ -147,6 +147,14 @@ font-family: cursive;
   outline: none;
 }
 
+.logout-btn {
+  @extend .LR; 
+}
+
+.inactive {
+  display:none;
+}
+
 .LR{
  background-color: transparent;
  text-align: center;
@@ -192,7 +200,7 @@ font-family: cursive;
  .search{
    min-width: 10px;
    min-height: 10px;
-    
+    display: none;
  }
 }
 

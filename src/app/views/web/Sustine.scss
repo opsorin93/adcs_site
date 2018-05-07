@@ -2,7 +2,7 @@
    h1{
     font-size: 30px;
     font-family: cursive;
-}
+    }
 }
 .contact-form {
     padding-top: 0%;
@@ -29,9 +29,9 @@
 }
 
 .send{
-    font-size: 20px;}
+    font-size: 20px;
+}
 
-.container-fluid{
-    margin-right: auto;
-    margin-left: auto;
+.support-form.inactive {
+    display: none;
 }

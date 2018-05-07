@@ -11,7 +11,8 @@ render(){
      const enState = this.props.language === "EN" ? "" : "inactive";
      const roState = this.props.language === "RO" ? "" : "inactive";
   return(
-    <div>
+    <div className="container-fluid">
+     <div className="row">
     <Menu/>
            <div className={ `content ${ enState }` }>
            
@@ -62,11 +63,7 @@ render(){
 
                 <p>Orice propunere de proiect va fi verificată de echipa ADCS pentru a ne asigura că propunerea este în conformitate cu obiectivele ADCS.</p>
 
-
-         
-
-          
-
+        <div className={`support-form ${this.props.username === "" ? "inactive" : ""}`}>
               <div className="contact-form">
                     <div className="input-row">
                         <label >Name</label>
@@ -88,10 +85,11 @@ render(){
                         <button className="send">Trimite</button> 
                     </div>
                 </div>   
-
+            </div>
        </div> 
      
     <Footer />
+    </div>
     </div>
       
     
@@ -101,10 +99,12 @@ render(){
 }
 Sustine.propTypes = {
   language: PropTypes.string.isRequired,
+  username: PropTypes.string.isRequired,
 };
 
 const mapStateToProps = ( state ) => ( {
   language: state.session.language,
+  username: state.session.username,
 } );
 
 export default connect( mapStateToProps )( Sustine );

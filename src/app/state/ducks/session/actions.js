@@ -1,5 +1,7 @@
 import types from "./types";
 
+const BASE_URL = "localhost:1234";
+
 const setLanguage = ( language ) => ( {
     type: types.SET_LANGUAGE,
     payload: { language },
@@ -15,16 +17,40 @@ const displayLoginPopup = ( loginState ) => ( {
     payload: { loginState },
 } );
 
-const register = ( user ) => ( {
+const setUsername = ( username ) => ( {
+    type: types.SET_USERNAME,
+    payload: { username },
+} );
 
+const register = ( user ) => ( {
+    type: types.REGISTER_USER,
+    meta: {
+        async: true,
+        path: `${ BASE_URL }/register`,
+        method: "POST",
+        body: {
+            user
+        },
+    },
 });
 
 const login = ( user ) => ( {
-
+    type: types.REGISTER_USER,
+    meta: {
+        async: true,
+        path: `${ BASE_URL }/login`,
+        method: "POST",
+        body: {
+            user
+        },
+    },
 });
 
 export default {
     setLanguage,
     displayRegisterPopup,
-    displayLoginPopup
+    displayLoginPopup,
+    register,
+    login,
+    setUsername,
 };

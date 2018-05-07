@@ -55,8 +55,9 @@ class Menu extends React.Component {
                         </button>
                     </div>
                     <div className="settings-bar">
-                        <button className="LR" onClick={ () => this.props.displayLoginPopup( !this.props.loginDisplayed ) }>{log}</button>
-                        <button className="LR" onClick={ () => this.props.displayRegisterPopup( !this.props.registerDisplayed ) }>{register}</button>
+                        <button className={`LR ${this.props.username === "" ? "" : "inactive"}`} onClick={ () => this.props.displayLoginPopup( !this.props.loginDisplayed ) }>{log}</button>
+                        <button className={`LR ${this.props.username === "" ? "" : "inactive"}`} onClick={ () => this.props.displayRegisterPopup( !this.props.registerDisplayed ) }>{register}</button>
+                        <button className={`logout-btn ${this.props.username === "" ? "inactive" : ""}`} onClick={ () => this.props.setUsername("") }>{this.props.username}</button>
                         <div className="right-side">
                         <div className="search">
                             <input type="text" placeholder={ searchPlaceholder } />
@@ -88,18 +89,22 @@ Menu.propTypes = {
     loginDisplayed: PropTypes.bool.isRequired,
     displayLoginPopup: PropTypes.func.isRequired,
     displayRegisterPopup: PropTypes.func.isRequired,
+    setUsername: PropTypes.func.isRequired,
+    username: PropTypes.string.isRequired,
 };
 
 const mapDispatchToProps = {
     setLanguage: sessionOperations.setLanguage,
     displayLoginPopup: sessionOperations.displayLoginPopup,
     displayRegisterPopup: sessionOperations.displayRegisterPopup,
+    setUsername: sessionOperations.setUsername,
 };
 
 const mapStateToProps = ( state ) => ( {
     language: state.session.language,
     loginDisplayed: state.session.loginDisplayed,
     registerDisplayed: state.session.registerDisplayed,
+    username: state.session.username,
 } );
 
 export default connect( mapStateToProps, mapDispatchToProps )( Menu );

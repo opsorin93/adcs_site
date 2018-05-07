@@ -1,3 +1,20 @@
+.login-popup.inactive {
+    display: none;
+}
+
+.login-popup {
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    background-color: white;
+    padding: 20px;
+
+    .input-row {
+        display: block;
+    }
+}
+
 .login{
     display: block;
 

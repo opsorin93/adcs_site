@@ -6,5 +6,5 @@ export { default as DespreNoi } from "./DespreNoi";
 export { default as Proiecte } from "./Proiecte";
 export { default as Servicii } from "./Servicii";
 export { default as Sustine } from "./Sustine";
-export { default as Login} from "./Login";
+export { default as Login} from "./login";
 export {default as Register} from "./Register";

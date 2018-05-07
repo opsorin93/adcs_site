@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { sessionOperations } from "../../state/ducks/session";
+import Login from "./login";
+import Register from "./Register";
 import "./Menu.scss";
 
 class Menu extends React.Component {
@@ -16,8 +18,10 @@ class Menu extends React.Component {
         const log = this.props.language === "EN" ? "Login" : "Intra in cont";
         const register = this.props.language === "EN" ? "Register" : "Inregistrare";
         const searchPlaceholder = this.props.language === "EN" ? " Search..." : "Cauta...";
-
+        const popupActive = this.props.loginDisplayed || this.props.registerDisplayed ? "popup-active" : "";
+        
         return (
+            <div className="screen">
                 <div className="meniu">
                     <div className="pages">
                         <button className="bar">
@@ -47,15 +51,8 @@ class Menu extends React.Component {
                         </button>
                     </div>
                     <div className="settings-bar">
-                        <button className="LR">
-                            <Link to="/login">{log}
-                            </Link>
-                        </button>
-                        <button className="LR">
-                            <Link to="/register">{register}
-                            </Link>   
-                        </button>
-
+                        <button className="LR" onClick={ () => this.props.displayLoginPopup( !this.props.loginDisplayed ) }>{log}</button>
+                        <button className="LR" onClick={ () => this.props.displayRegisterPopup( !this.props.registerDisplayed ) }>{register}</button>
                         <div className="right-side">
                         <div className="search">
                             <input type="text" placeholder={ searchPlaceholder } />
@@ -74,6 +71,9 @@ class Menu extends React.Component {
                     </div>
                </div>
             </div>
+                <Login />
+                <Register />
+            </div>
         );
     }
 }
@@ -81,14 +81,22 @@ class Menu extends React.Component {
 Menu.propTypes = {
     language: PropTypes.string.isRequired,
     setLanguage: PropTypes.func.isRequired,
+    registerDisplayed: PropTypes.bool.isRequired,
+    loginDisplayed: PropTypes.bool.isRequired,
+    displayLoginPopup: PropTypes.func.isRequired,
+    displayRegisterPopup: PropTypes.func.isRequired,
 };
 
 const mapDispatchToProps = {
     setLanguage: sessionOperations.setLanguage,
+    displayLoginPopup: sessionOperations.displayLoginPopup,
+    displayRegisterPopup: sessionOperations.displayRegisterPopup,
 };
 
 const mapStateToProps = ( state ) => ( {
     language: state.session.language,
+    loginDisplayed: state.session.loginDisplayed,
+    registerDisplayed: state.session.registerDisplayed,
 } );
 
 export default connect( mapStateToProps, mapDispatchToProps )( Menu );

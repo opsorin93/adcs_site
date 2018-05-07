@@ -9,6 +9,10 @@
   background-color: transparent;
 }
 
+.screen.inactive {
+  display:none;
+}
+
 .screen.popup-active {
   background-color: rgba(0, 0, 0, 0.7);  
 }

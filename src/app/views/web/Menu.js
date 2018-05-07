@@ -21,7 +21,11 @@ class Menu extends React.Component {
         const popupActive = this.props.loginDisplayed || this.props.registerDisplayed ? "popup-active" : "";
         
         return (
-            <div className="screen">
+            <div>
+            <div className={`screen ${!this.props.registerDisplayed && !this.props.loginDisplayed ? "inactive" : ""}`}>
+                <Login />
+                <Register />
+            </div>
                 <div className="meniu">
                     <div className="pages">
                         <button className="bar">
@@ -71,8 +75,7 @@ class Menu extends React.Component {
                     </div>
                </div>
             </div>
-                <Login />
-                <Register />
+
             </div>
         );
     }

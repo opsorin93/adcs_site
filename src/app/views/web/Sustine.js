@@ -25,9 +25,29 @@ render(){
 
                 <p>Any project proposal will be verified by the ADCS team to ensure that the proposal is in line with the ADCS objectives.</p>
            
-               <h2>Contact form</h2>
+                <div className="contact-form">
+                    <div className="input-row">
+                        <label>Name</label>
+                        <input className="form-input" type="text" placeholder=""></input>
+                    </div>
+                    <div className="input-row">
+                        <label>E-mail</label>
+                        <input className="form-input" type="text" placeholder=""></input>
+                    </div>
+                    <div className="input-row">
+                        <label>Subject</label>
+                        <input className="form-input" type="text" placeholder=""></input>
+                    </div>
+                    <div className="input-row">
+                        <label>Details</label>
+                        <textarea type="text" placeholder=""></textarea>
+                    </div>
+                    <div className="input-row">
+                        <button className="send">Send</button> 
+                    </div>
+                </div>   
 
-               <h3>Become a volunteer</h3>
+               
            
            </div>
            <div className={ `content ${ roState }` }>
@@ -43,29 +63,29 @@ render(){
                 <p>Orice propunere de proiect va fi verificată de echipa ADCS pentru a ne asigura că propunerea este în conformitate cu obiectivele ADCS.</p>
 
 
-          <h2>Formular de contact</h2>
+         
 
-          <h3>Fii voluntar</h3>
+          
 
               <div className="contact-form">
                     <div className="input-row">
-                        <label>Name</label>
-                        <input type="text" placeholder=""></input>
+                        <label >Name</label>
+                        <input className="form-input" type="text" placeholder=""></input>
                     </div>
                     <div className="input-row">
                         <label>E-mail</label>
-                        <input type="text" placeholder=""></input>
+                        <input className="form-input" type="text" placeholder=""></input>
                     </div>
                     <div className="input-row">
-                        <label>Subject</label>
-                        <input type="text" placeholder=""></input>
+                        <label>Subiect</label>
+                        <input className="form-input" type="text" placeholder=""></input>
                     </div>
                     <div className="input-row">
-                        <label>Details</label>
+                        <label>Detalii</label>
                         <textarea type="text" placeholder=""></textarea>
                     </div>
                     <div className="input-row">
-                        <button>Send</button> 
+                        <button className="send">Trimite</button> 
                     </div>
                 </div>   
 

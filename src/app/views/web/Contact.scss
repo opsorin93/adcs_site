@@ -2,3 +2,41 @@
     padding-top: 10%;
     height: 76%;
 }
+.container-fluid{
+    margin-right: auto;
+    margin-left: auto;
+}
+.input-row{
+    font-size: 20px;
+}
+.content {
+    padding-top: 5%;
+    background: linear-gradient(to bottom, #0066cc 0%, #ccffff 100%);
+    font-weight: bold;
+    height: 80vh;
+    color: black;
+    font-family: cursive;
+}
+.contact-form {
+    padding-top: 0%;
+    height: 30%;
+    display: inline-block;
+    .input-row{
+        .form-input{
+            border-radius: 20px;
+        }
+        label{
+            font-size:20px;
+        }
+         input{
+             font-size: 20px;
+         }
+         textarea{
+             font-size:20px;
+         }
+         .send{
+            font-size: 20px;
+        }
+    }
+
+}

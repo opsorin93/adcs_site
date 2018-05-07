@@ -19,7 +19,7 @@ class Login extends React.Component {
                 <input type="text" placeholder=""></input>
             </div>
             <div className="input-row">
-                <button name="subject" value="Register">Register</button>
+                <button name="subject" value="Login">Login</button>
                 <button name="subject" value="Cancel" onClick={() => this.props.displayLoginPopup(false)}>Cancel</button>
             </div>   
         </div> 

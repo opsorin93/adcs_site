@@ -1,13 +1,21 @@
 .register-popup {
-    display: block;
+    display: inline-block;
     position: absolute;
     top: 25%;
-    left: 50%;
+    left: 40%;
     background-color: white;
-    padding: 20px;
-
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
     .input-row {
         display: block;
+        button{
+            border-radius: 20px;
+        }
+        input{
+            border-radius: 20px;
+        }
     }
 }
 
